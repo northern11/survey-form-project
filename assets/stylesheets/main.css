@@ -56,8 +56,10 @@ Basic Styling
 ====================================================
 */
 
+/* Color Scheme used https://coolors.co/9cfffa-acf39d-b0c592-a97c73-af3e4d */
+
 html {
-	background: #ADF5FF;
+	background: #ADF5FF; /* Waterspout */
 }
 
 a {
@@ -123,6 +125,6 @@ Button Styling
 #submit {
 	border-radius: 15px;
 	margin: 20px;
-	background-color: #ACF39D;
+	background-color: #ACF39D; /* Granny Smith Apple */
 	color: white;
 }
