@@ -5,18 +5,22 @@
     <title>Survey Form</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
   </head>
+    <header>
+      <h1 id="title">Survey Form</h1>
+    </header>
 
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
-    <form id="survey-form">
-        <label id="name-lable" for="name">Name</label>
-        <input id="name" type="text" name="name" required>
+    <body>
+
+      <form id="survey-form">
+        <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder=" Enter Your Name" required>
         <!-- Must be required to enter a name-->
         <label id="email-label" for="email">E-mail</label>
-        <input id="email" type="email-address" required>
+        <input id="email" type="email-address" placeholder=" Enter Your E-mail" required>
         <!-- Must be required to enter an e-mail, must be formatted correctly-->
         <label id="number-label" for="number">Age</label>
-        <input id="number" type="number" min="13" max="99">
+        <input id="number" type="number" min="13" max="99" placeholder=" Age">
         <!-- Can only accept numbers, defined by min (13) and max (99) -->
         <label for="role">Which option best describes your current skill level</label>
         <select id="dropdown" name="role">
@@ -24,14 +28,27 @@
           <option value="Intermediate">Intermediate</option>
           <option value="Advanced">Advanced</option>
         </select>
-        <label for="location">Which location for a meetup would work best for you?</label>
+        <label for="day">Which day of the week is best for a meetup</label>
+        <input type="radio" name="day" value="Monday" checked> Monday
+        <input type="radio" name="day" value="Tuesday"> Tuesday
+        <input type="radio" name="day" value="Wednesday"> Wednesday
+        <input type="radio" name="day" value="Thursday"> Thursday
+        <input type="radio" name="day" value="Friday"> Friday
+        <input type="radio" name="day" value="Saturday"> Saturday
+        <input type="radio" name="day" value="Sunday"> Sunday
+        <label for="location">Which locations for a meetup would work best for you?</label>
         <input type="checkbox" name="location" value="Mt. Pleasant" checked>Mt. Pleasant</input>
         <input type="checkbox" name="location" value="West Ashley">West Ashley</input>
         <input type="checkbox" name="location" value="North Charleston">North Charleston</input>
         <input type="checkbox" name="location" value="Downtown Charleston">Downtown Charleston</input>
         <textarea></textarea>
         <button id="submit">Submit</button>
-    </form>
+      </form>
+      </body>
+    <footer>
+      <p>Developed by Matt Roberts</p>
+      <p>Code located <a href="https://github.com/northern11/survey-form-project" target="_blank">here</a></p>
+    </footer>
   <!--FCC Testing Script-->
-  <script src="https://cdr.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
