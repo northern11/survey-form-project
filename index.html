@@ -5,10 +5,13 @@
     <title>Survey Form</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
   </head>
+    <header>
+      <h1 id="title">Survey Form</h1>
+    </header>
 
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
-    <form id="survey-form">
+    <body>
+      <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
+      <form id="survey-form">
         <label id="name-lable" for="name">Name</label>
         <input id="name" type="text" name="name" required>
         <!-- Must be required to enter a name-->
@@ -31,7 +34,12 @@
         <input type="checkbox" name="location" value="Downtown Charleston">Downtown Charleston</input>
         <textarea></textarea>
         <button id="submit">Submit</button>
-    </form>
+      </form>
+      </body>
+    <footer>
+      <p>Developed by Matt Roberts</p>
+      <p>Code located <a href="https://github.com/northern11/survey-form-project">here</a></p>
+    </footer>
   <!--FCC Testing Script-->
   <script src="https://cdr.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
