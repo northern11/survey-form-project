@@ -14,13 +14,13 @@
       <form id="survey-form">
         <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
         <label id="name-label" for="name">Name</label>
-        <input id="name" type="text" name="name" required>
+        <input id="name" type="text" name="name" placeholder=" Enter Your Name" required>
         <!-- Must be required to enter a name-->
         <label id="email-label" for="email">E-mail</label>
-        <input id="email" type="email-address" required>
+        <input id="email" type="email-address" placeholder=" Enter Your E-mail" required>
         <!-- Must be required to enter an e-mail, must be formatted correctly-->
         <label id="number-label" for="number">Age</label>
-        <input id="number" type="number" min="13" max="99">
+        <input id="number" type="number" min="13" max="99" placeholder=" Age">
         <!-- Can only accept numbers, defined by min (13) and max (99) -->
         <label for="role">Which option best describes your current skill level</label>
         <select id="dropdown" name="role">
@@ -28,6 +28,7 @@
           <option value="Intermediate">Intermediate</option>
           <option value="Advanced">Advanced</option>
         </select>
+        
         <label for="location">Which location for a meetup would work best for you?</label>
         <input type="checkbox" name="location" value="Mt. Pleasant" checked>Mt. Pleasant</input>
         <input type="checkbox" name="location" value="West Ashley">West Ashley</input>
