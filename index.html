@@ -13,63 +13,76 @@
 
       <form id="survey-form">
         <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
-        <ul class="flex-outer">
+        <ul class="flex-outer-1">
           <li>
-            <label id="name-label" for="name">Name</label>
+            <label id="name-label" for="name">* Name: </label>
             <input id="name" type="text" name="name" placeholder=" Enter Your Name" required>
             <!-- Must be required to enter a name-->
           </li>
           <li>
-             <label id="email-label" for="email">E-mail</label>
+             <label id="email-label" for="email">* E-mail: </label>
              <input id="email" type="email-address" placeholder=" Enter Your E-mail" required>
-        <!-- Must be required to enter an e-mail, must be formatted correctly-->
+             <!-- Must be required to enter an e-mail, must be formatted correctly-->
           </li>
           <li>
-        <label id="number-label" for="number">Age</label>
-        <input id="number" type="number" min="13" max="99" placeholder=" Age">
-        <!-- Can only accept numbers, defined by min (13) and max (99) -->
+            <label id="number-label" for="number">* Age: </label>
+            <input id="number" type="number" min="13" max="99" placeholder=" Age">
+            <!-- Can only accept numbers, defined by min (13) and max (99) -->
           </li>
           <li>
-        <label for="role">Which option best describes your current skill level</label>
-        <select id="dropdown" name="role">
-          <option value="Beginner" selected>Beginner</option>
-          <option value="Intermediate">Intermediate</option>
-          <option value="Advanced">Advanced</option>
-        </select>
+            <label for="role">Which option best describes your current skill level</label>
+            <select id="dropdown" name="role">
+              <option value="Beginner" selected>Beginner</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="Advanced">Advanced</option>
+           </select>
            </li>
-         </ul>
-         <ul class="flex-inner">
+         </ul><!-- flex-outer-1 -->
+         <ul class="flex-outer-2">
            <li>
-        <label for="day">Which day of the week is best for a meetup</label>
-      </li>
-          <li>
-        <input type="radio" name="day" value="Monday" checked> Monday
-      </li>
-      <li>
-        <input type="radio" name="day" value="Tuesday"> Tuesday
-      </li>
-      <li>
-        <input type="radio" name="day" value="Wednesday"> Wednesday
-      </li>
-      <li>
-        <input type="radio" name="day" value="Thursday"> Thursday
-      </li>
-      <li>
-        <input type="radio" name="day" value="Friday"> Friday
-      </li>
-      <li>
-        <input type="radio" name="day" value="Saturday"> Saturday
-      </li>
-      <li>
-        <input type="radio" name="day" value="Sunday"> Sunday
-      </li>
-        <label for="location">Which locations for a meetup would work best for you?</label>
-        <input type="checkbox" name="location" value="Mt. Pleasant" checked>Mt. Pleasant</input>
-        <input type="checkbox" name="location" value="West Ashley">West Ashley</input>
-        <input type="checkbox" name="location" value="North Charleston">North Charleston</input>
-        <input type="checkbox" name="location" value="Downtown Charleston">Downtown Charleston</input>
+             <label for="day">Which day of the week is best for a meetup</label>
+             <input type="radio" name="day" value="Monday" checked> Monday
+           </li>
+           <li>
+             <input type="radio" name="day" value="Tuesday"> Tuesday
+           </li>
+           <li>
+             <input type="radio" name="day" value="Wednesday"> Wednesday
+           </li>
+           <li>
+             <input type="radio" name="day" value="Thursday"> Thursday
+           </li>
+           <li>
+             <input type="radio" name="day" value="Friday"> Friday
+           </li>
+           <li>
+             <input type="radio" name="day" value="Saturday"> Saturday
+           </li>
+           <li>
+             <input type="radio" name="day" value="Sunday"> Sunday
+           </li>
+         </ul><!-- flex-outer-2 -->
+         <ul class="flex-outer-3">
+           <li>
+             <label for="location">Which locations for a meetup would work best for you?</label>
+           </li>
+           <li>
+             <input type="checkbox" name="location" value="Mt. Pleasant" checked>Mt. Pleasant</input>
+           </li>
+           <li>
+             <input type="checkbox" name="location" value="West Ashley">West Ashley</input>
+           </li>
+           <li>
+             <input type="checkbox" name="location" value="North Charleston">North Charleston</input>
+           </li>
+           <li>
+             <input type="checkbox" name="location" value="Downtown Charleston">Downtown Charleston</input>
+           </li>
+           <li>
+       <p>Any Comments or Suggestions?</p>
         <textarea></textarea>
-      </ul><!-- flex-inner -->
+           </li>
+      </ul><!-- flex-outer-3 -->
         <button id="submit">Submit</button>
       </form>
       </body>
