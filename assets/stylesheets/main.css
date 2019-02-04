@@ -120,6 +120,9 @@ textarea {
 	flex: 1 0 220px;
 }
 
+input[type=checkbox] {
+	
+}
 
 #description {
 	margin-bottom: 20px;
@@ -169,7 +172,7 @@ Button Styling
 
 button {
 	border-radius: 15px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto; /* centers the button */
 	background-color: #ACF39D; /* Granny Smith Apple */
 	color: white;
 	padding: 10px 15px;
@@ -179,5 +182,4 @@ button {
 button:hover,
 button:focus {
 	color: black;
-
 }
