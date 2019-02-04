@@ -120,6 +120,7 @@ textarea {
 	flex: 1 0 220px;
 }
 
+
 #description {
 	margin-bottom: 20px;
 }
@@ -166,10 +167,17 @@ Button Styling
 ====================================================
 */
 
-#submit {
+button {
 	border-radius: 15px;
 	margin: 20px;
 	background-color: #ACF39D; /* Granny Smith Apple */
 	color: white;
 	padding: 5px;
+	border: 0;
+}
+
+button:hover,
+button:focus {
+	color: black;
+	
 }
