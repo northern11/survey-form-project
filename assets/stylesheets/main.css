@@ -169,15 +169,15 @@ Button Styling
 
 button {
 	border-radius: 15px;
-	margin: 20px;
+	margin: 0 auto 0 auto;
 	background-color: #ACF39D; /* Granny Smith Apple */
 	color: white;
-	padding: 5px;
+	padding: 10px 15px;
 	border: 0;
 }
 
 button:hover,
 button:focus {
 	color: black;
-	
+
 }
