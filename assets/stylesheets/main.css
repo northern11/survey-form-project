@@ -121,8 +121,15 @@ textarea {
 }
 
 input[type=checkbox] {
-
+   margin-left: 220px;
+	 margin-right: 10px;
 }
+
+input[type=radio] {
+   margin-left: 220px;
+	 margin-right: 10px;
+}
+
 
 #description {
 	margin-bottom: 20px;
