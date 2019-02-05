@@ -11,8 +11,7 @@
 
     <body class="container">
 
-      <form id="survey-form">
-
+      <form id="survey-form" method="get" action="">
         <ul class="flex-outer-1">
           <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
           <li>
@@ -22,12 +21,12 @@
           </li>
           <li>
              <label id="email-label" for="email">* E-mail: </label>
-             <input id="email" class="input-field" type="email-address" placeholder=" Enter Your E-mail" required>
+             <input id="email" class="input-field" type="email-address" name="e-mail" placeholder=" Enter Your E-mail" required>
              <!-- Must be required to enter an e-mail, must be formatted correctly-->
           </li>
           <li>
-            <label id="number-label" for="number">* Age: </label>
-            <input id="number" class="input-field" type="number" min="13" max="99" placeholder=" Age">
+            <label id="number-label" for="age">* Age: </label>
+            <input id="number" class="input-field" type="number" name="age" min="13" max="99" placeholder=" Age">
             <!-- Can only accept numbers, defined by min (13) and max (99) -->
           </li>
           </ul><!-- flex-outer-1 -->
@@ -40,8 +39,10 @@
               <option value="Advanced">Advanced</option>
            </select>
            </li>
+          
+             <label for="day">Which day of the week is best for a meetup?</label>
+
            <li>
-             <label for="day">Which day of the week is best for a meetup</label>
              <input type="radio" name="day" value="Monday" checked>Monday
            </li>
            <li>
@@ -72,10 +73,10 @@
          <ul class="flex-outer-1">
            <li>
              <label for="location">Which locations for a meetup would work best for you?</label>
+          </li>
+          <li>
              <input type="checkbox" name="location" value="Mt. Pleasant" checked>Mt. Pleasant</input>
            </li>
-         </ul>
-         <ul class="flex-outer-1">
            <li>
              <input type="checkbox" name="location" value="West Ashley">West Ashley</input>
            </li>
