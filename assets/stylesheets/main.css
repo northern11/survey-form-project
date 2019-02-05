@@ -126,11 +126,13 @@ input[type=checkbox] {
 }
 
 input[type=radio] {
-   margin-left: 220px;
+	 margin-left: 220px;
 	 margin-right: 10px;
 }
 
+label[for="day"] {
 
+}
 #description {
 	margin-bottom: 20px;
 }
