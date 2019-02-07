@@ -30,16 +30,17 @@
             <input id="number" class="input-field" type="number" name="age" min="13" max="99" placeholder=" Age">
             <!-- Can only accept numbers, defined by min (13) and max (99) -->
           </li>
-          </ul><!-- flex-outer-1 -->
-          <ul class="flex-outer-1">
+        </ul><!-- flex-outer-1 -->
+        <ul class="flex-outer-1">
           <li>
             <label for="role">Which option best describes your current skill level</label>
             <select id="dropdown" name="role">
               <option value="Beginner" selected>Beginner</option>
               <option value="Intermediate">Intermediate</option>
               <option value="Advanced">Advanced</option>
-           </select>
+            </select>
            </li>
+           <fieldset>
            <li>
              <legend for="day">Which day of the week is best for a meetup?</legend>
            </li>
@@ -70,12 +71,14 @@
              <input type="radio" name="day" value="Sunday">
              <label for="Sunday">Sunday</label>
            </li>
+         </fieldset>
          </ul><!-- flex-outer-1 -->
          <ul class="flex-outer-1">
+         <fieldset>
            <li>
              <legend for="location">Which locations for a meetup would work best for you?</legend>
-          </li>
-          <li>
+           </li>
+           <li>
              <input type="checkbox" name="location" value="Mt. Pleasant" checked>Mt. Pleasant</input>
            </li>
            <li>
@@ -87,21 +90,22 @@
            <li>
              <input type="checkbox" name="location" value="Downtown Charleston">Downtown Charleston</input>
            </li>
-         </ul>
-      <ul class="flex-outer-1">
+        </fieldset>
+        </ul>
+        <ul class="flex-outer-1">
            <li>
-       <p>Any Comments or Suggestions?</p>
-        <textarea class="input-field" name="comment" placeholder="Your comments here..."></textarea>
+             <p>Any Comments or Suggestions?</p>
+             <textarea class="input-field" name="comment" placeholder="Your comments here..."></textarea>
            </li>
           <li>
-          <button id="submit">Submit</button>
-        </li>
-          </ul><!-- flex-outer-1 -->
+            <button id="submit">Submit</button>
+          </li>
+        </ul><!-- flex-outer-1 -->
         </form>
       </body>
     <footer>
       <p>Developed by Matt Roberts</p>
-      <p>Code located <a href="https://github.com/northern11/survey-form-project" target="_blank">here</a></p>
+      <p>Code located on my <a href="https://github.com/northern11/survey-form-project" target="_blank">GitHub</a></p>
     </footer>
   <!--FCC Testing Script-->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
