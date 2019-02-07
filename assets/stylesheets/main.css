@@ -60,11 +60,14 @@ Basic Styling
 
 html {
 	background: #ADF5FF; /* Waterspout */
+	font: 300 16px/22px "Scope One", serif;
 }
 
 a {
 	text-decoration: none;
 }
+
+
 
 /* Unvisited Link*/
 a:link {
@@ -116,6 +119,7 @@ input:invalid {
 	margin: 2px;
 }
 
+/*  styles below have been from https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 */
 .flex-outer-1 {
 	max-width: 500px;
 	margin: 0 auto;
