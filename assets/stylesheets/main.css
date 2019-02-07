@@ -60,11 +60,14 @@ Basic Styling
 
 html {
 	background: #ADF5FF; /* Waterspout */
+	font: 300 16px/22px "Scope One", serif;
 }
 
 a {
 	text-decoration: none;
 }
+
+
 
 /* Unvisited Link*/
 a:link {
