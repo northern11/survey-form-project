@@ -107,6 +107,10 @@ textarea {
 	width: 280px;
 }
 
+input:invalid {
+	border: 2px solid red;
+}
+
 .input-field {
 	padding: 5px;
 	margin: 2px;
