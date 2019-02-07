@@ -15,17 +15,17 @@
         <ul class="flex-outer-1">
           <p id="description">Let us know how we can improve the Free Code Camp Charleston Meetups</p>
           <li>
-            <label id="name-label" for="name">* Name: </label>
+            <label id="name-label" for="name">*Name: </label>
             <input id="name" class="input-field" type="text" name="name" placeholder=" Enter Your Name" required>
             <!-- Must be required to enter a name-->
           </li>
           <li>
-             <label id="email-label" for="email">* E-mail: </label>
-             <input id="email" class="input-field" type="email-address" name="e-mail" placeholder=" Enter Your E-mail" required>
+             <label id="email-label" for="email">*E-mail: </label>
+             <input id="email" class="input-field" type="email" name="e-mail" placeholder=" Enter Your E-mail" required maxlength="30" minlength="3">
              <!-- Must be required to enter an e-mail, must be formatted correctly-->
           </li>
           <li>
-            <label id="number-label" for="age">* Age: </label>
+            <label id="number-label" for="age">  Age: </label>
             <input id="number" class="input-field" type="number" name="age" min="13" max="99" placeholder=" Age">
             <!-- Can only accept numbers, defined by min (13) and max (99) -->
           </li>
@@ -39,9 +39,9 @@
               <option value="Advanced">Advanced</option>
            </select>
            </li>
-          
-             <label for="day">Which day of the week is best for a meetup?</label>
-
+           <li>
+             <legend for="day">Which day of the week is best for a meetup?</legend>
+           </li>
            <li>
              <input type="radio" name="day" value="Monday" checked>Monday
            </li>
@@ -72,7 +72,7 @@
          </ul><!-- flex-outer-1 -->
          <ul class="flex-outer-1">
            <li>
-             <label for="location">Which locations for a meetup would work best for you?</label>
+             <legend for="location">Which locations for a meetup would work best for you?</legend>
           </li>
           <li>
              <input type="checkbox" name="location" value="Mt. Pleasant" checked>Mt. Pleasant</input>

@@ -107,6 +107,10 @@ textarea {
 	width: 280px;
 }
 
+input:invalid {
+	border: 2px solid red;
+}
+
 .input-field {
 	padding: 5px;
 	margin: 2px;
@@ -142,9 +146,6 @@ input[type=radio] {
 	 margin-right: 10px;
 }
 
-label[for="day"] {
-
-}
 #description {
 	margin-bottom: 20px;
 }
